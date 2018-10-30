@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="table_divider_color">#EDCFFF</color>
+    <color name="result">#6D0ACE0C</color>
+    <color name="green">#DF00FF00</color>
+    <color name="red">#DFFF0000</color>
+</resources>

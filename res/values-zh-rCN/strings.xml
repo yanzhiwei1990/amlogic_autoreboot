@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoReboot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mode1_title">"策略"</string>
+    <string name="reboot_item_title">"重启"</string>
+    <string name="update_item_title">"升级"</string>
+    <string name="ping_item_title">Ping</string>
+    <string name="delay_time">"设置延时(秒)\n 默认值:30秒"</string>
+    <string name="start">"启动"</string>
+    <string name="select_update_file">"选择升级文件"</string>
+    <string name="selected">"选择"</string>
+    <string name="title1">"测试模块"</string>
+    <string name="title2">"测试参数"</string>
+    <string name="title3">"启动单次"</string>
+    <string name="title4">"加入测试计划"</string>
+    <string name="title5">"操作参数"</string>
+    <string name="update_file_pos">"升级文件路径"</string>
+    <string name="ping_times">"ping 次数后失败\n 默认值:30次"</string>
+    <string name="ping_ips">"ping 地址\n 默认值:www.baidu.com"</string>
+    <string name="test_plan">"测试计划:"</string>
+    <string name="make_plan">"生成测试计划"</string>
+    <string name="start_plan">"开始测试"</string>
+      <string name="stop_plan">"停止测试"</string>
+    <string name="times_after">"Reboot ?次进行1次升级\n 默认值:3"</string>
+        <string name="scan_title">"搜索"</string>
+    <string name="scan_tip">"搜索中,请等待..."</string>
+        <string name="reboot_times">"Reboot 运行次数"</string>
+     <string name="update_times">"  升级运行次数"</string>
+    <string name="running">"测试正在运行:"</string>
+    <string name="stoping">"测试已经停止。\n"</string>
+    <string name="start_time">"测试开始时间:"</string>
+    <string name="ping_ip">"当前ip地址:"</string>
+    <string name="stop_time">"停止时间:"</string>
+    <string name="version">"版本信息:"</string>
+    <string name="ping_failed">"ping失败"</string>
+</resources>

@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent" >
+ 
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:background="#00FF00"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title1" >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/title2" >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title3" >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title5" >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title4" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:background="#000000"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" >
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/reboot_item_title" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/delay_time"
+                android:inputType="number" >
+            </EditText>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="@string/start" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/selected" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:background="#00FF00"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" >
+                   <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/update_item_title" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ems="3"
+                android:hint="@string/update_file_pos"
+                android:inputType="text" >
+
+            </EditText>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/select_updateFile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="@string/select_update_file" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/selected" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:background="#000000"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" >
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5" >
+            </TextView>
+
+            <Button
+                android:id="@+id/make_plan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg"
+                android:text="@string/select_update_file" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:background="#00FF00"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" >
+            
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
